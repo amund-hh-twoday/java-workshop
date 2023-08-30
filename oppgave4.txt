@@ -1,0 +1,19 @@
+Oppgave 4 - Kalle eksterne APIer ved hjelp av Spring Webclient
+
+Vi skal her modifisere APIet vårt til å hente inn data fra et eksternt API ved bruk av WebClient.
+WebClient er Spring sin innebygde HTTP-klient.
+Det finnes mange åpne, gratis APIer på internett. Du kan bruke det du vil, men jeg foreslår Kanye Rest-APIet eller BoredApi:
+https://api.kanye.rest/
+https://www.boredapi.com/api/
+
+- Legg til spring-boot-starter-webflux som avhengighet i prosjektet
+- I konfigurasjonsklassen: Opprett en ny bønne av typen WebClient
+- Lag et nytt endepunkt i kontrolleren som skal brukes til å trigge API-kallet i tjenesten.
+- Lag en ny tjeneste som tar inn WebClienten du konfigurerte.
+- Opprett en metode i tjenesten for å kalle det eksterne APIet.
+- Bruk webclienten til å gjøre et kall.
+- Sørg for at resultatet blir formidlet tilbake til oss når vi kaller endepunktet.
+
+Bonus:
+- Dersom APIet du valgte returnerer et JSON-objekt, prøv å lage et DTO-objekt i prosjektet ditt som matcher alle feltene som returneres.
+- La WebClienten automatisk mappe resultatet til dette objektet, og returner objektet fra endepunktet.

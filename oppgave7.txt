@@ -1,0 +1,4 @@
+Oppgave 6 - Cron-jobber med @Scheduled
+
+- Bruk @Scheduled til å sette opp en metode i tjenesten din som henter inn data fra API èn gang per minutt, og lagrer til database.
+- Sjekk innholdet i databasen for å verifisere at det fungerer.

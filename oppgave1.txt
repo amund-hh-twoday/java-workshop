@@ -1,0 +1,12 @@
+Oppgave 1 - Oppsett av Maven prosjekt
+
+Her skal vi prøve å sette opp vårt eget Maven prosjekt, og få applikasjonen til å kjøre.
+
+- Åpne opp terminalen
+- Installer maven
+- Lag en ny mappe under java-workshop
+- Naviger til mappen i terminalen
+- Initialiser et Java prosjekt med "maven-archetype-quickstart" som archetype
+- Installer maven wrapper i prosjektet
+- Bygg prosjektet med mvn
+- Kjør applikasjonen i IntelliJ og sjekk at main-klassen skriver til konsollen

@@ -1,0 +1,5 @@
+Oppgave 6 - Hente ut data fra database
+
+- Lag et nytt endepunkt i kontrolleren som kaller en get-metode i tjenesten
+- Metoden i tjenesten skal kalle på repository og hente ut data basert på en nøkkelverdi
+- Kall endepunktet og verifiser at det går ann å hente ut data fra databasen.

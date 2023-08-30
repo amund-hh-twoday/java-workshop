@@ -1,0 +1,14 @@
+Oppgave 3 - Oppsett av enkel REST-tjeneste
+
+Vi skal her begynne å sette opp vårt eget API.
+Vi skal lage et endepunkt som vi kan kalle fra utsiden, og en tjeneste som kalles av det endepunktet.
+
+- Legg til spring-boot-starter-web som avhengighet i prosjektet og reload Maven
+- Opprett en REST-kontroller som tar imot GET-kall på en URL, f.eks "/api/counter"
+- Lag en tjeneste som inkrementerer en counter og returnerer svaret
+- Ta i bruk denne tjenesten i kontrolleren ved hjelp av autowiring
+- I GET-metoden, kall tjenesten og returner verdien
+- Test endepunktet med Postman, og sjekk at du får tilbake svaret fra counteren
+
+Tips:
+- Bruk maven repository for å søke opp avhengigheter og hvordan de skal inkluderes i pom.xml

@@ -1,0 +1,14 @@
+Oppgave 2 - Oppsett og konfigurasjon av tjenester
+
+- Opprett en ny IntelliJ modul under java-workshop. (Høyreklikk -> new -> module)
+- Bruk Spring initializr for å opprette en ny Spring Boot applikasjon. Bruk Maven som byggeverktøy og Java 17. Du trenger ingen ekstra avhengigheter.
+
+I prosjektet:
+- Lag en Spring konfigurasjonsklasse.
+- Lag en klasse som skriver ut en tekststreng i en metode.
+- Registrer klassen som en Spring bønne i konfigurasjonsklassen.
+- Lag en Spring tjenesteklasse som injecter denne bønnen ved hjelp av autowiring
+- I serviceklassens konstruktør - Kall bønnens metode og skriv resultatet til terminalen
+- Kjør applikasjonen og verifiser at det blir skrevet i konsollen.
+
+
